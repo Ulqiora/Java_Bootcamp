@@ -14,9 +14,7 @@ public class Program {
             Thread thHen=new Thread(hen);
             Thread thPC=new Thread(pc);
             thEgg.start();
-            Thread.sleep(100);
             thHen.start();
-            Thread.sleep(1000);
             thPC.start();
             thHen.join();
             thEgg.join();

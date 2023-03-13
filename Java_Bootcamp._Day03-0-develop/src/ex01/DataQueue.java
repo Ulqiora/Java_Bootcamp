@@ -11,7 +11,11 @@ public class DataQueue {
     DataQueue(int maxSize) {
         this.maxSize = maxSize;
     }
-    public boolean isFull(){ return maxSize==queue.size(); }
+    public boolean isFull(){
+        synchronized (queue) {
+            return maxSize == queue.size();
+        }
+    }
     public void waitOnFull() throws InterruptedException {
         synchronized (FULL_QUEUE) {
             FULL_QUEUE.wait();
@@ -44,7 +48,13 @@ public class DataQueue {
     }
 
     public boolean isEmpty() {
-        return queue.isEmpty();
+        synchronized (queue) {
+            return queue.isEmpty();
+        }
     }
-    public int size(){return queue.size();}
+    public int size(){
+        synchronized (queue) {
+            return queue.size();
+        }
+    }
 }

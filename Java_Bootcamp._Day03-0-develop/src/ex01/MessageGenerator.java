@@ -26,7 +26,6 @@ public class MessageGenerator implements Runnable{
             while (dataQueue.isFull()||currentGenerator!=id) {
                 try {
                     if(!dataQueue.isEmpty()) dataQueue.notifyAllForFull();
-//                    System.out.println("Wait ,currentGenerator="+ currentGenerator+",isFull() = "+dataQueue.isFull()+",id = "+id);
                     dataQueue.waitOnFull();
                 } catch (InterruptedException e) {
                     break;
