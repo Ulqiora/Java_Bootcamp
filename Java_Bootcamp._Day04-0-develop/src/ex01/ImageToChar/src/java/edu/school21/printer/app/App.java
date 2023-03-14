@@ -7,7 +7,7 @@ public class App {
     public static void main(String[] args) {
         checkArgs(args);
         try {
-
+            System.out.println(System.getProperty("user.dir"));
             PrinterBlackWhiteImages logic = new PrinterBlackWhiteImages(args[0].charAt(0), args[1].charAt(0), args[2]);
             logic.start();
         } catch (IOException e) {
