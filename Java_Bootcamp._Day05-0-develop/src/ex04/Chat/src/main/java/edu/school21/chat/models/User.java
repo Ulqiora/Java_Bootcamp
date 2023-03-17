@@ -16,6 +16,8 @@ public class User {
         this.id=id;
         this.login=string;
         this.password=string1;
+        rooms = new ArrayList<>();
+        chatMember = new ArrayList<>();
     }
 
     public void setId(long id) {

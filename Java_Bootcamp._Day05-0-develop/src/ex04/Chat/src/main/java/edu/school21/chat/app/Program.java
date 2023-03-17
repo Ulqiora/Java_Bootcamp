@@ -18,12 +18,15 @@ public class Program {
         JdbcDataSource dataSource = new JdbcDataSource();
         updateData("schema.sql", dataSource);
         updateData("data.sql", dataSource);
-        MessagesRepository messagesRepository = new MessagesRepositoryJdbcImpl(dataSource.getDataSource());
-        UsersRepository usersRepository = new UsersRepositoryJdbcImpl(dataSource.getDataSource());
-        System.out.println(messagesRepository.findById(5L).get());
-        List<User> users = usersRepository.findAll(0, 7);
-//        System.out.println("LIST OF ALL USERS FROM PAGE=0 SIZE=20:");
-//        users.forEach(System.out::println);
+        UsersRepository repository = new UsersRepositoryJdbcImpl(dataSource.getDataSource());
+        findAllUsers(repository);
+    }
+
+    private static void findAllUsers(UsersRepository repository) {
+        List<User> users = repository.findAll(0, 20);
+        System.out.println("LIST OF ALL USERS FROM PAGE=0 SIZE=20:");
+//        System.out.println(users.get(0).toString());
+        users.forEach(System.out::println);
     }
 
     private static void updateData(String file, JdbcDataSource dataSource) {
@@ -32,7 +35,6 @@ public class Program {
             InputStream input = Program.class.getClassLoader().getResourceAsStream(file);
             assert input != null;
             Scanner scanner = new Scanner(input).useDelimiter(";");
-
             while (scanner.hasNext()) {
                 st.executeUpdate(scanner.next().trim());
             }

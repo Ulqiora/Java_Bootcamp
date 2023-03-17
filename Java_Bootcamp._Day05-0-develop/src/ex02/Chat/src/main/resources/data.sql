@@ -16,6 +16,7 @@ INSERT INTO chat.message (author, room, text) VALUES
 ((SELECT id FROM chat.user WHERE name = 'Eminem'),      (SELECT id FROM chat.chatroom WHERE title = 'Chat 1'), 'Hello, I am Eminem'),
 ((SELECT id FROM chat.user WHERE name = 'Lady Gaga'),      (SELECT id FROM chat.chatroom WHERE title = 'Chat 2'), 'Hello, I am Lady Gaga'),
 ((SELECT id FROM chat.user WHERE name = 'Luciano Pavarotti'), (SELECT id FROM chat.chatroom WHERE title = 'Chat 3'), 'Hello, I am Luciano'),
+((SELECT id FROM chat.user WHERE name = 'Luciano Pavarotti'), (SELECT id FROM chat.chatroom WHERE title = 'Chat 3'), 'Hello, I am no Eminem'),
 ((SELECT id FROM chat.user WHERE name = 'Adele'),    (SELECT id FROM chat.chatroom WHERE title = 'Chat 4'), 'Hello, I am Adele'),
 ((SELECT id FROM chat.user WHERE name = 'Cardy B'),  (SELECT id FROM chat.chatroom WHERE title = 'Chat 5'), 'Hello, I am Cardy B'),
 ((SELECT id FROM chat.user WHERE name = 'Rihanna'),    (SELECT id FROM chat.chatroom WHERE title = 'Chat 6'), 'Hello, I am Rihanna')
