@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.school21.numbers.NumberWorkerTest" time="0.132" tests="44" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jcraster/Java_Bootcamp/Java_Bootcamp._Day06-0-develop/src/ex00/Tests/target/test-classes:/Users/jcraster/Java_Bootcamp/Java_Bootcamp._Day06-0-develop/src/ex00/Tests/target/classes:/Users/jcraster/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/3.0.0/maven-surefire-plugin-3.0.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.0.0/maven-surefire-common-3.0.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0/surefire-api-3.0.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0/surefire-logger-api-3.0.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.0.0/surefire-extensions-api-3.0.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0/surefire-booter-3.0.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0/surefire-extensions-spi-3.0.0.jar:/Users/jcraster/.m2/repository/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar:/Users/jcraster/.m2/repository/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar:/Users/jcraster/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.jar:/Users/jcraster/.m2/repository/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar:/Users/jcraster/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar:/Users/jcraster/.m2/repository/org/apache/maven/maven-core/3.1.0/maven-core-3.1.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/maven-settings/3.1.0/maven-settings-3.1.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/maven-settings-builder/3.1.0/maven-settings-builder-3.1.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/maven-repository-metadata/3.1.0/maven-repository-metadata-3.1.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/maven-model-builder/3.1.0/maven-model-builder-3.1.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.jar:/Users/jcraster/.m2/repository/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar:/Users/jcraster/.m2/repository/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar:/Users/jcraster/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar:/Users/jcraster/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar:/Users/jcraster/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/Users/jcraster/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/jcraster/.m2/repository/com/google/guava/guava/10.0.1/guava-10.0.1.jar:/Users/jcraster/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/jcraster/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar:/Users/jcraster/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/jcraster/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar:/Users/jcraster/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar:/Users/jcraster/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.16/plexus-interpolation-1.16.jar:/Users/jcraster/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.4.2/plexus-classworlds-2.4.2.jar:/Users/jcraster/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/jcraster/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/jcraster/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/jcraster/.m2/repository/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar:/Users/jcraster/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/jcraster/.m2/repository/org/codehaus/plexus/plexus-java/1.1.2/plexus-java-1.1.2.jar:/Users/jcraster/.m2/repository/org/ow2/asm/asm/9.4/asm-9.4.jar:/Users/jcraster/.m2/repository/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.jar:/Users/jcraster/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0/surefire-shared-utils-3.0.0.jar:/Users/jcraster/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/jcraster/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/Users/jcraster/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/jcraster/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar:/Users/jcraster/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/jcraster/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/jcraster/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/jcraster/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-18.0.1.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/jcraster/Java_Bootcamp/Java_Bootcamp._Day06-0-develop/src/ex00/Tests/target/surefire/surefirebooter9288889589760783663.jar /Users/jcraster/Java_Bootcamp/Java_Bootcamp._Day06-0-develop/src/ex00/Tests/target/surefire 2023-03-20T18-24-34_383-jvmRun1 surefire2514412064476790814tmp surefire_02249688840165116511tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/jcraster/Java_Bootcamp/Java_Bootcamp._Day06-0-develop/src/ex00/Tests/target/test-classes:/Users/jcraster/Java_Bootcamp/Java_Bootcamp._Day06-0-develop/src/ex00/Tests/target/classes:/Users/jcraster/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/3.0.0/maven-surefire-plugin-3.0.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.0.0/maven-surefire-common-3.0.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0/surefire-api-3.0.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0/surefire-logger-api-3.0.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.0.0/surefire-extensions-api-3.0.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0/surefire-booter-3.0.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0/surefire-extensions-spi-3.0.0.jar:/Users/jcraster/.m2/repository/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar:/Users/jcraster/.m2/repository/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar:/Users/jcraster/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.jar:/Users/jcraster/.m2/repository/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar:/Users/jcraster/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar:/Users/jcraster/.m2/repository/org/apache/maven/maven-core/3.1.0/maven-core-3.1.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/maven-settings/3.1.0/maven-settings-3.1.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/maven-settings-builder/3.1.0/maven-settings-builder-3.1.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/maven-repository-metadata/3.1.0/maven-repository-metadata-3.1.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/maven-model-builder/3.1.0/maven-model-builder-3.1.0.jar:/Users/jcraster/.m2/repository/org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.jar:/Users/jcraster/.m2/repository/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar:/Users/jcraster/.m2/repository/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar:/Users/jcraster/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar:/Users/jcraster/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar:/Users/jcraster/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/Users/jcraster/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/jcraster/.m2/repository/com/google/guava/guava/10.0.1/guava-10.0.1.jar:/Users/jcraster/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/jcraster/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar:/Users/jcraster/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/jcraster/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar:/Users/jcraster/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar:/Users/jcraster/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.16/plexus-interpolation-1.16.jar:/Users/jcraster/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.4.2/plexus-classworlds-2.4.2.jar:/Users/jcraster/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/jcraster/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/jcraster/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/jcraster/.m2/repository/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar:/Users/jcraster/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/jcraster/.m2/repository/org/codehaus/plexus/plexus-java/1.1.2/plexus-java-1.1.2.jar:/Users/jcraster/.m2/repository/org/ow2/asm/asm/9.4/asm-9.4.jar:/Users/jcraster/.m2/repository/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.jar:/Users/jcraster/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0/surefire-shared-utils-3.0.0.jar:/Users/jcraster/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/jcraster/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/Users/jcraster/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/jcraster/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar:/Users/jcraster/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/jcraster/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/jcraster/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/jcraster/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jcraster"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-18.0.1.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/jcraster/Java_Bootcamp/Java_Bootcamp._Day06-0-develop/src/ex00/Tests"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/jcraster/Java_Bootcamp/Java_Bootcamp._Day06-0-develop/src/ex00/Tests/target/surefire/surefirebooter9288889589760783663.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="18.0.1.1+2-6"/>
+    <property name="user.name" value="jcraster"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/jcraster/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/zz/zyxvpxvq6csfxvn_n000cbfc0032vl/T/"/>
+    <property name="idea.version" value="2022.3.3"/>
+    <property name="java.version" value="18.0.1.1"/>
+    <property name="user.dir" value="/Users/jcraster/Java_Bootcamp/Java_Bootcamp._Day06-0-develop/src/ex00/Tests"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/jcraster/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.1.1+2-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="isPrimeForNotPrimes(int)[1]" classname="edu.school21.numbers.NumberWorkerTest" time="0.031"/>
+  <testcase name="isPrimeForNotPrimes(int)[2]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForNotPrimes(int)[3]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForNotPrimes(int)[4]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForNotPrimes(int)[5]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForNotPrimes(int)[6]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForNotPrimes(int)[7]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForNotPrimes(int)[8]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForNotPrimes(int)[9]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForNotPrimes(int)[10]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForNotPrimes(int)[11]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="checkDigitsSum(int, int)[1]" classname="edu.school21.numbers.NumberWorkerTest" time="0.007"/>
+  <testcase name="checkDigitsSum(int, int)[2]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="checkDigitsSum(int, int)[3]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="checkDigitsSum(int, int)[4]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="checkDigitsSum(int, int)[5]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="checkDigitsSum(int, int)[6]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="checkDigitsSum(int, int)[7]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="checkDigitsSum(int, int)[8]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="checkDigitsSum(int, int)[9]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="checkDigitsSum(int, int)[10]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="checkDigitsSum(int, int)[11]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="checkDigitsSum(int, int)[12]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="checkDigitsSum(int, int)[13]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="checkDigitsSum(int, int)[14]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes(int)[1]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes(int)[2]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForPrimes(int)[3]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForPrimes(int)[4]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForPrimes(int)[5]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForPrimes(int)[6]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes(int)[7]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes(int)[8]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForPrimes(int)[9]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForPrimes(int)[10]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForPrimes(int)[11]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes(int)[12]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForPrimes(int)[13]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForPrimes(int)[14]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+  <testcase name="isPrimeForIllegalNumber(int)[1]" classname="edu.school21.numbers.NumberWorkerTest" time="0.002"/>
+  <testcase name="isPrimeForIllegalNumber(int)[2]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForIllegalNumber(int)[3]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForIllegalNumber(int)[4]" classname="edu.school21.numbers.NumberWorkerTest" time="0.001"/>
+  <testcase name="isPrimeForIllegalNumber(int)[5]" classname="edu.school21.numbers.NumberWorkerTest" time="0"/>
+</testsuite>

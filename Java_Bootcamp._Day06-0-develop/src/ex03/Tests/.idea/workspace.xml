@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="db7fd0b0-8f92-40e9-9faf-7cf5c709ebe2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../Java_Bootcamp._Day01-0-develop/Java_Bootcamp._Day01-0-develop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Java_Bootcamp._Day02-0-develop/Java_Bootcamp._Day02-0-develop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Java_Bootcamp._Day02-0-develop/src/Java_Bootcamp._Day02-0-develop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Java_Bootcamp._Day02-0-develop/src/out/production/Java_Bootcamp._Day02-0-develop/Java_Bootcamp._Day02-0-develop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Java_Bootcamp._Day03-0-develop/Java_Bootcamp._Day03-0-develop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Java_Bootcamp._Day04-0-develop/.idea/Java_Bootcamp._Day04-0-develop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Java_Bootcamp._Day04-0-develop/src/ex00/ex00.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Java_Bootcamp._Day04-0-develop/src/ex01/ex01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Java_Bootcamp._Day04-0-develop/src/ex02/ex02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex00/.idea/ex00.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex00/Tests/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex00/Tests/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex00/Tests/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex00/Tests/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex00/Tests/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex00/Tests/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex00/Tests/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex00/Tests/ex00.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex00/Tests/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex00/Tests/src/test/java/edu/school21/numbers/NumberWorkerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex00/Tests/src/test/resources/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex01/Tests/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex01/Tests/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex01/Tests/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex01/Tests/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex01/Tests/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex01/Tests/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex01/Tests/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex01/Tests/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex01/Tests/src/main/java/edu/school21/numbers/NumberWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex01/Tests/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex01/Tests/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex01/Tests/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex01/Tests/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex01/Tests/src/test/java/edu/school21/numbers/NumberWorkerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex01/Tests/src/test/java/edu/school21/repositories/EmbeddedDataSourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex01/Tests/src/test/resources/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex01/Tests/src/test/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex01/Tests/src/test/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex02/Tests/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex02/Tests/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex02/Tests/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex02/Tests/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex02/Tests/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex02/Tests/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex02/Tests/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ex02/Tests/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/school21/exceptions/AlreadyAuthenticatedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/school21/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/school21/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/school21/numbers/NumberWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/school21/repositories/ProductsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/school21/repositories/ProductsRepositoryJdbcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/school21/repositories/UsersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/school21/services/UsersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/school21/numbers/NumberWorkerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/school21/services/UsersServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/school21/services/repositories/EmbeddedDataSourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/school21/services/repositories/ProductsRepositoryJdbcImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Java_Bootcamp._Day02-0-develop/src/ex02/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Java_Bootcamp._Day02-0-develop/src/ex02/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Java_Bootcamp._Day03-0-develop/src/ex03/UrlsLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Java_Bootcamp._Day03-0-develop/src/ex03/UrlsLoader.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NHPmaaEIOOJ5lB4MxNa4SXJagI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/jcraster/Java_Bootcamp/Java_Bootcamp._Day06-0-develop/src/ex03/Tests"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db7fd0b0-8f92-40e9-9faf-7cf5c709ebe2" name="Changes" comment="" />
+      <created>1679318194069</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679318194069</updated>
+    </task>
+    <servers />
+  </component>
+</project>
