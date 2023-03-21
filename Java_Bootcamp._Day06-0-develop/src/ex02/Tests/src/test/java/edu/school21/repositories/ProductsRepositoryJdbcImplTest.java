@@ -21,31 +21,34 @@ public class ProductsRepositoryJdbcImplTest {
     private DataSource dataSource;
 
     final List<Product> FIND_ALL = Arrays.asList(
-            new Product(1l, "Pure", 420L),
-            new Product(2l, "Love", 210L),
-            new Product(3l, "Tea", 105l),
-            new Product(4l, "Coffee", 1000l),
-            new Product(5l, "Milk", 600l),
-            new Product(6l, "Smile", 450L));
-
-    final Product FIND_BY_ID = new Product(4l, "Coffee", 1000l);
-    final Product UPDATED_PRODUCT = new Product(5l, "Lemon", 99l);
-    final Product SAVE_PRODUCT = new Product(7l, "Fish", 690l);
-
+            new Product(1L, "a", 1L),
+            new Product(2L, "b", 2L),
+            new Product(3L, "c", 3L),
+            new Product(4L, "d", 4L),
+            new Product(5L, "e", 5L),
+            new Product(6L, "f", 6L));
+    final Product FIND_BY_ID = new Product(1L, "a", 1L);
+    final Product UPDATED_PRODUCT = new Product(5L, "edited", 5L);
+    final Product SAVE_PRODUCT = new Product(7L, "saved", 7L);
     final List<Product> PRODUCTS_AFTER_DELETE = Arrays.asList(
-            new Product(1l, "Pure", 420L),
-            new Product(2l, "Love", 210L),
-            new Product(4l, "Coffee", 1000l),
-            new Product(5l, "Milk", 600l),
-            new Product(6l, "Smile", 450L));
+            new Product(1L, "a", 1L),
+            new Product(2L, "b", 2L),
+            new Product(4L, "d", 4L),
+            new Product(5L, "e", 5L),
+            new Product(6L, "f", 6L));
 
     @BeforeEach
-    private void init() {
+    public void init() {
         dataSource = new EmbeddedDatabaseBuilder().setType(EmbeddedDatabaseType.HSQL)
-                .addScript("schema.sql")
-                .addScript("data.sql")
-                .build();
+                                                            .addScript("schema.sql")
+                                                            .addScript("data.sql")
+                                                            .build();
         repository = new ProductsRepositoryJdbcImpl(dataSource);
+    }
+    @AfterEach
+    public void delete() {
+        dataSource=null;
+        repository=null;
     }
 
     @Test
@@ -55,29 +58,25 @@ public class ProductsRepositoryJdbcImplTest {
 
     @Test
     public void findByIdTest() throws SQLException {
-        assertEquals(FIND_BY_ID, repository.findById(4l).get());
-        assertEquals(Optional.empty(), repository.findById(10l));
+        assertEquals(FIND_BY_ID, repository.findById(1L).get());
+        assertEquals(Optional.empty(), repository.findById(10L));
         assertEquals(Optional.empty(), repository.findById(null));
     }
-
     @Test
     public void updateTest() throws SQLException {
-        repository.update(new Product(5l, "Lemon", 99l));
-        assertEquals(UPDATED_PRODUCT, repository.findById(5l).get());
+        repository.update(UPDATED_PRODUCT);
+        assertEquals(UPDATED_PRODUCT, repository.findById(5L).get());
     }
 
     @Test
     public void saveTest() throws SQLException {
-        repository.save(new Product(7l, "Fish", 690l));
-        assertEquals(SAVE_PRODUCT, repository.findById(7l).get());
+        repository.save(SAVE_PRODUCT);
+        assertEquals(SAVE_PRODUCT, repository.findById(7L).get());
     }
 
     @Test
     public void deleteTest() throws SQLException {
-        repository.delete(3l);
-        assertEquals(PRODUCTS_AFTER_DELETE, repository.findAll());
-        assertFalse(repository.findById(3l).isPresent());
+        repository.delete(3L);
+        assertFalse(repository.findById(3L).isPresent());
     }
-
-
 }

@@ -3,10 +3,7 @@ package edu.school21.repositories;
 import edu.school21.models.Product;
 
 import javax.sql.DataSource;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -60,13 +57,10 @@ public class ProductsRepositoryJdbcImpl implements ProductsRepository {
 
     @Override
     public void update(Product product) {
-        String updateQuery = "UPDATE shop.product SET name = ?, price = ? WHERE id = ?";
+        String updateQuery = "UPDATE shop.product SET name = '" +product.getName()+"', price = "+product.getPrice()+" WHERE id = "+product.getId();
         try (Connection connection = dataSource.getConnection();
-             PreparedStatement statement = connection.prepareStatement(updateQuery)) {
-            statement.setString(1, product.getName());
-            statement.setLong(2, product.getPrice());
-            statement.setLong(3, product.getId());
-            statement.execute();
+             Statement statement = connection.createStatement()) {
+            statement.executeQuery(updateQuery);
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
@@ -74,12 +68,10 @@ public class ProductsRepositoryJdbcImpl implements ProductsRepository {
 
     @Override
     public void save(Product product) {
-        String saveQuery = "INSERT INTO shop.product(name, price) VALUES (?, ?)";
+        String saveQuery = "INSERT INTO shop.product(id,name, price) VALUES ("+product.getId()+", '"+product.getName()+"', "+product.getPrice()+")";
         try (Connection connection = dataSource.getConnection();
-             PreparedStatement statement = connection.prepareStatement(saveQuery)) {
-            statement.setString(1, product.getName());
-            statement.setLong(2, product.getPrice());
-            statement.execute();
+             Statement statement = connection.createStatement()) {
+            statement.executeQuery(saveQuery);
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
@@ -89,8 +81,8 @@ public class ProductsRepositoryJdbcImpl implements ProductsRepository {
     public void delete(Long id) {
         String deletelQuery = "DELETE FROM shop.product WHERE id = ";
         try (Connection connection = dataSource.getConnection();
-             PreparedStatement statement = connection.prepareStatement(deletelQuery + id)) {
-            statement.execute();
+             Statement statement = connection.createStatement()) {
+            statement.executeQuery(deletelQuery + id);
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }

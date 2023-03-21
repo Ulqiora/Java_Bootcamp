@@ -5,31 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13d6bcd9-1ff6-4659-acac-c04f7cc53d53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex00/Tests/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex00/Tests/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex00/Tests/src/test/java/edu/school21/numbers/NumberWorkerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex00/Tests/src/test/java/edu/school21/numbers/NumberWorkerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex00/Tests/target/Tests-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex00/Tests/target/classes/edu/school21/numbers/NumberWorker$IllegalNumberException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex00/Tests/target/classes/edu/school21/numbers/NumberWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex00/Tests/target/ex00-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex00/Tests/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex00/Tests/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex00/Tests/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex00/Tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex00/Tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex00/Tests/target/surefire-reports/TEST-edu.school21.numbers.NumberWorkerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex00/Tests/target/surefire-reports/edu.school21.numbers.NumberWorkerTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex00/Tests/target/test-classes/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex00/Tests/target/test-classes/edu/school21/numbers/NumberWorkerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/school21/repositories/EmbeddedDataSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/school21/repositories/EmbeddedDataSourceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex02/Tests/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex02/Tests/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ex02/Tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex02/Tests/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex02/Tests/src/main/java/edu/school21/repositories/ProductsRepositoryJdbcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex02/Tests/src/main/java/edu/school21/repositories/ProductsRepositoryJdbcImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex02/Tests/src/test/java/edu/school21/repositories/ProductsRepositoryJdbcImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex02/Tests/src/test/java/edu/school21/repositories/ProductsRepositoryJdbcImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex02/Tests/target/classes/edu/school21/repositories/ProductsRepositoryJdbcImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex02/Tests/target/classes/edu/school21/repositories/ProductsRepositoryJdbcImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ex02/Tests/target/test-classes/edu/school21/repositories/ProductsRepositoryJdbcImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex02/Tests/target/test-classes/edu/school21/repositories/ProductsRepositoryJdbcImplTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +28,25 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/GitHub/Java_Bootcamp/Java_Bootcamp._Day06-0-develop/src/ex02/Tests"
+    "last_opened_file_path": "/Users/jcraster/Java_Bootcamp/Java_Bootcamp._Day06-0-develop/src/ex01/Tests"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.EmbeddedDataSourceTest">
+  <component name="RunManager" selected="JUnit.EmbeddedDataSourceTest (1)">
+    <configuration name="EmbeddedDataSourceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.school21.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.school21.repositories" />
+      <option name="MAIN_CLASS_NAME" value="edu.school21.repositories.EmbeddedDataSourceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmbeddedDataSourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tests" />
       <extension name="coverage">
@@ -87,6 +79,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmbeddedDataSourceTest (1)" />
         <item itemvalue="JUnit.EmbeddedDataSourceTest" />
         <item itemvalue="JUnit.NumberWorkerTest" />
       </list>

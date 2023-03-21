@@ -1,99 +1,81 @@
 -------------------------------------------------------------------------------
 Test set: edu.school21.repositories.ProductsRepositoryJdbcImplTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 3, Skipped: 0, Time elapsed: 0.028 s <<< FAILURE! - in edu.school21.repositories.ProductsRepositoryJdbcImplTest
-edu.school21.repositories.ProductsRepositoryJdbcImplTest.saveTest  Time elapsed: 0.008 s  <<< ERROR!
-java.util.NoSuchElementException: No value present
-	at edu.school21.repositories.ProductsRepositoryJdbcImplTest.saveTest(ProductsRepositoryJdbcImplTest.java:72)
-
-edu.school21.repositories.ProductsRepositoryJdbcImplTest.updateTest  Time elapsed: 0.003 s  <<< ERROR!
-java.util.NoSuchElementException: No value present
-	at edu.school21.repositories.ProductsRepositoryJdbcImplTest.updateTest(ProductsRepositoryJdbcImplTest.java:66)
-
-edu.school21.repositories.ProductsRepositoryJdbcImplTest.findAllTest  Time elapsed: 0.005 s  <<< FAILURE!
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.027 s <<< FAILURE! - in edu.school21.repositories.ProductsRepositoryJdbcImplTest
+edu.school21.repositories.ProductsRepositoryJdbcImplTest.findAllTest  Time elapsed: 0.004 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
 expected: <[Product{ 
-id=1, name='Pure', price=420}, Product{ 
-id=2, name='Love', price=210}, Product{ 
-id=3, name='Tea', price=105}, Product{ 
-id=4, name='Coffee', price=1000}, Product{ 
-id=5, name='Milk', price=600}, Product{ 
-id=6, name='Smile', price=450}]> but was: <[Product{ 
-id=1, name='Banana', price=99}, Product{ 
-id=2, name='Chia', price=250}, Product{ 
-id=3, name='Tea', price=80}, Product{ 
-id=4, name='Coffee', price=500}, Product{ 
-id=5, name='Youghurt', price=140}, Product{ 
-id=6, name='Dates', price=390}, Product{ 
-id=1, name='Banana', price=99}, Product{ 
-id=2, name='Chia', price=250}, Product{ 
-id=3, name='Tea', price=80}, Product{ 
-id=4, name='Coffee', price=500}, Product{ 
-id=5, name='Youghurt', price=140}, Product{ 
-id=6, name='Dates', price=390}, Product{ 
-id=0, name='Fish', price=690}, Product{ 
-id=1, name='Banana', price=99}, Product{ 
-id=2, name='Chia', price=250}, Product{ 
-id=3, name='Tea', price=80}, Product{ 
-id=4, name='Coffee', price=500}, Product{ 
-id=5, name='Youghurt', price=140}, Product{ 
-id=6, name='Dates', price=390}, Product{ 
-id=1, name='Banana', price=99}, Product{ 
-id=2, name='Chia', price=250}, Product{ 
-id=3, name='Tea', price=80}, Product{ 
-id=4, name='Coffee', price=500}, Product{ 
-id=5, name='Youghurt', price=140}, Product{ 
-id=6, name='Dates', price=390}]>
-	at edu.school21.repositories.ProductsRepositoryJdbcImplTest.findAllTest(ProductsRepositoryJdbcImplTest.java:53)
-
-edu.school21.repositories.ProductsRepositoryJdbcImplTest.findByIdTest  Time elapsed: 0.002 s  <<< ERROR!
-java.util.NoSuchElementException: No value present
-	at edu.school21.repositories.ProductsRepositoryJdbcImplTest.findByIdTest(ProductsRepositoryJdbcImplTest.java:58)
+id=1, name='a', price=1}, Product{ 
+id=2, name='b', price=2}, Product{ 
+id=3, name='c', price=3}, Product{ 
+id=4, name='d', price=4}, Product{ 
+id=5, name='e', price=5}, Product{ 
+id=6, name='f', price=6}]> but was: <[Product{ 
+id=1, name='a', price=1}, Product{ 
+id=2, name='b', price=2}, Product{ 
+id=3, name='c', price=3}, Product{ 
+id=4, name='d', price=4}, Product{ 
+id=6, name='f', price=6}, Product{ 
+id=1, name='a', price=1}, Product{ 
+id=2, name='b', price=2}, Product{ 
+id=3, name='c', price=3}, Product{ 
+id=4, name='d', price=4}, Product{ 
+id=6, name='f', price=6}, Product{ 
+id=7, name='saved', price=7}, Product{ 
+id=1, name='a', price=1}, Product{ 
+id=2, name='b', price=2}, Product{ 
+id=3, name='c', price=3}, Product{ 
+id=4, name='d', price=4}, Product{ 
+id=6, name='f', price=6}, Product{ 
+id=5, name='edited', price=5}, Product{ 
+id=5, name='edited', price=5}, Product{ 
+id=5, name='edited', price=5}, Product{ 
+id=1, name='a', price=1}, Product{ 
+id=2, name='b', price=2}, Product{ 
+id=3, name='c', price=3}, Product{ 
+id=4, name='d', price=4}, Product{ 
+id=5, name='e', price=5}, Product{ 
+id=6, name='f', price=6}]>
+	at edu.school21.repositories.ProductsRepositoryJdbcImplTest.findAllTest(ProductsRepositoryJdbcImplTest.java:56)
 
 edu.school21.repositories.ProductsRepositoryJdbcImplTest.deleteTest  Time elapsed: 0.003 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
 expected: <[Product{ 
-id=1, name='Pure', price=420}, Product{ 
-id=2, name='Love', price=210}, Product{ 
-id=4, name='Coffee', price=1000}, Product{ 
-id=5, name='Milk', price=600}, Product{ 
-id=6, name='Smile', price=450}]> but was: <[Product{ 
-id=1, name='Banana', price=99}, Product{ 
-id=2, name='Chia', price=250}, Product{ 
-id=3, name='Tea', price=80}, Product{ 
-id=4, name='Coffee', price=500}, Product{ 
-id=5, name='Youghurt', price=140}, Product{ 
-id=6, name='Dates', price=390}, Product{ 
-id=1, name='Banana', price=99}, Product{ 
-id=2, name='Chia', price=250}, Product{ 
-id=3, name='Tea', price=80}, Product{ 
-id=4, name='Coffee', price=500}, Product{ 
-id=5, name='Youghurt', price=140}, Product{ 
-id=6, name='Dates', price=390}, Product{ 
-id=0, name='Fish', price=690}, Product{ 
-id=1, name='Banana', price=99}, Product{ 
-id=2, name='Chia', price=250}, Product{ 
-id=3, name='Tea', price=80}, Product{ 
-id=4, name='Coffee', price=500}, Product{ 
-id=5, name='Youghurt', price=140}, Product{ 
-id=6, name='Dates', price=390}, Product{ 
-id=1, name='Banana', price=99}, Product{ 
-id=2, name='Chia', price=250}, Product{ 
-id=3, name='Tea', price=80}, Product{ 
-id=4, name='Coffee', price=500}, Product{ 
-id=5, name='Youghurt', price=140}, Product{ 
-id=6, name='Dates', price=390}, Product{ 
-id=1, name='Banana', price=99}, Product{ 
-id=2, name='Chia', price=250}, Product{ 
-id=3, name='Tea', price=80}, Product{ 
-id=4, name='Coffee', price=500}, Product{ 
-id=5, name='Youghurt', price=140}, Product{ 
-id=6, name='Dates', price=390}, Product{ 
-id=1, name='Banana', price=99}, Product{ 
-id=2, name='Chia', price=250}, Product{ 
-id=3, name='Tea', price=80}, Product{ 
-id=4, name='Coffee', price=500}, Product{ 
-id=5, name='Youghurt', price=140}, Product{ 
-id=6, name='Dates', price=390}]>
-	at edu.school21.repositories.ProductsRepositoryJdbcImplTest.deleteTest(ProductsRepositoryJdbcImplTest.java:78)
+id=1, name='a', price=1}, Product{ 
+id=2, name='b', price=2}, Product{ 
+id=4, name='d', price=4}, Product{ 
+id=5, name='e', price=5}, Product{ 
+id=6, name='f', price=6}]> but was: <[Product{ 
+id=1, name='a', price=1}, Product{ 
+id=2, name='b', price=2}, Product{ 
+id=4, name='d', price=4}, Product{ 
+id=6, name='f', price=6}, Product{ 
+id=1, name='a', price=1}, Product{ 
+id=2, name='b', price=2}, Product{ 
+id=4, name='d', price=4}, Product{ 
+id=6, name='f', price=6}, Product{ 
+id=7, name='saved', price=7}, Product{ 
+id=1, name='a', price=1}, Product{ 
+id=2, name='b', price=2}, Product{ 
+id=4, name='d', price=4}, Product{ 
+id=6, name='f', price=6}, Product{ 
+id=5, name='edited', price=5}, Product{ 
+id=5, name='edited', price=5}, Product{ 
+id=5, name='edited', price=5}, Product{ 
+id=1, name='a', price=1}, Product{ 
+id=2, name='b', price=2}, Product{ 
+id=4, name='d', price=4}, Product{ 
+id=5, name='e', price=5}, Product{ 
+id=6, name='f', price=6}, Product{ 
+id=1, name='a', price=1}, Product{ 
+id=2, name='b', price=2}, Product{ 
+id=4, name='d', price=4}, Product{ 
+id=5, name='e', price=5}, Product{ 
+id=6, name='f', price=6}, Product{ 
+id=1, name='a', price=1}, Product{ 
+id=2, name='b', price=2}, Product{ 
+id=4, name='d', price=4}, Product{ 
+id=5, name='e', price=5}, Product{ 
+id=6, name='f', price=6}]>
+	at edu.school21.repositories.ProductsRepositoryJdbcImplTest.deleteTest(ProductsRepositoryJdbcImplTest.java:80)
 

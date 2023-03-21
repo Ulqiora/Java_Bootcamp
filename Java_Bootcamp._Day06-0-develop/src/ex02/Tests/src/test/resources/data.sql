@@ -1,7 +1,7 @@
-INSERT INTO shop.product(identifier, name, price) VALUES
-(1, 'Banana', 99),
-(2, 'Chia', 250),
-(3, 'Tea', 80),
-(4, 'Coffee', 500),
-(5, 'Youghurt', 140),
-(6, 'Dates', 390);
+INSERT INTO shop.product(id, name, price) VALUES
+(1, 'a', 1),
+(2, 'b', 2),
+(3, 'c', 3),
+(4, 'd', 4),
+(5, 'e', 5),
+(6, 'f', 6);
