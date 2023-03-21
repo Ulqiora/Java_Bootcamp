@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d2303d6-9f8b-4c34-915d-67190ac75456" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../ex01/Tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex01/Tests/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/school21/repositories/ProductsRepositoryJdbcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/school21/repositories/ProductsRepositoryJdbcImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/school21/repositories/ProductsRepositoryJdbcImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/school21/repositories/ProductsRepositoryJdbcImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/models/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/numbers/NumberWorker$IllegalNumberException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/numbers/NumberWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/repositories/ProductsRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/repositories/ProductsRepositoryJdbcImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.school21.numbers.NumberWorkerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.school21.repositories.EmbeddedDataSourceTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.school21.repositories.ProductsRepositoryJdbcImplTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.school21.numbers.NumberWorkerTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.school21.repositories.EmbeddedDataSourceTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.school21.repositories.ProductsRepositoryJdbcImplTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/school21/numbers/NumberWorkerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/school21/repositories/EmbeddedDataSourceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/school21/repositories/ProductsRepositoryJdbcImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/schema.sql" beforeDir="false" />
-    </list>
+    <list default="true" id="5d2303d6-9f8b-4c34-915d-67190ac75456" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
