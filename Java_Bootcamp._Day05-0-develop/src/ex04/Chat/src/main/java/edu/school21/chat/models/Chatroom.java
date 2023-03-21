@@ -19,7 +19,7 @@ public class Chatroom {
         return "{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", owner=" + owner +
+                ", owner=" + owner.getId() +
                 ", messages=" + messages +
                 '}';
     }

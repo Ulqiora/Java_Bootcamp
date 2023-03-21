@@ -28,7 +28,4 @@ public class UrlsLoader implements Runnable{
             System.exit(-1);
         }
     }
-
-
-
 }
