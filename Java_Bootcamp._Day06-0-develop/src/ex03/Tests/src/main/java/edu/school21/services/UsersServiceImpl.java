@@ -16,9 +16,8 @@ public class UsersServiceImpl {
 
     public boolean authenticate(String login, String password) throws EntityNotFoundException, AlreadyAuthenticatedException {
         User user = usersRepository.findByLogin(login);
-        if (Objects.isNull(user)) {
+        if (Objects.isNull(user))
             throw new EntityNotFoundException("No such user");
-        }
         if (user.isAuthenticated())
             throw new AlreadyAuthenticatedException("Authenticate error");
         boolean isAuthenticated = user.getPassword().equals(password);

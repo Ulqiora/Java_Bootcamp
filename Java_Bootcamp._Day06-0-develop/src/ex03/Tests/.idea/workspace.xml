@@ -5,53 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ccff7fe-8d71-4233-aa0c-3f85fe3545df" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../ex02/Tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex02/Tests/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/school21/exceptions/AlreadyAuthenticatedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/school21/models/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/school21/models/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/school21/numbers/NumberWorker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/school21/repositories/ProductsRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/school21/repositories/ProductsRepositoryJdbcImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/school21/repositories/UsersRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/school21/services/UsersServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/school21/numbers/NumberWorkerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/school21/services/UsersServiceImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/school21/services/repositories/EmbeddedDataSourceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/school21/services/repositories/ProductsRepositoryJdbcImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/exceptions/AlreadyAuthenticatedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/models/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/models/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/numbers/NumberWorker$IllegalNumberException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/numbers/NumberWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/repositories/ProductsRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/repositories/ProductsRepositoryJdbcImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/repositories/UsersRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/services/UsersServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.school21.numbers.NumberWorkerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.school21.services.UsersServiceImplTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.school21.services.repositories.EmbeddedDataSourceTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.school21.services.repositories.ProductsRepositoryJdbcImplTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.school21.numbers.NumberWorkerTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.school21.services.UsersServiceImplTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.school21.services.repositories.EmbeddedDataSourceTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.school21.services.repositories.ProductsRepositoryJdbcImplTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/school21/numbers/NumberWorkerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/school21/services/UsersServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/school21/services/repositories/EmbeddedDataSourceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/school21/services/repositories/ProductsRepositoryJdbcImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/school21/services/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/school21/services/UsersServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,10 +47,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/jcraster/Java_Bootcamp/Java_Bootcamp._Day06-0-develop/src/ex03/Tests",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.UsersServiceImplTest.correctLoginAndPasswordTest">
+  <component name="RunManager" selected="JUnit.UsersServiceImplTest">
     <configuration name="EmbeddedDataSourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex03" />
       <extension name="coverage">
@@ -105,21 +62,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="edu.school21.repositories" />
       <option name="MAIN_CLASS_NAME" value="edu.school21.repositories.EmbeddedDataSourceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberWorkerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.school21.numbers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.school21.numbers" />
-      <option name="MAIN_CLASS_NAME" value="edu.school21.numbers.NumberWorkerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,6 +98,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UsersServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.school21.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.school21.services" />
+      <option name="MAIN_CLASS_NAME" value="edu.school21.services.UsersServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UsersServiceImplTest.correctLoginAndPasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex03" />
       <extension name="coverage">
@@ -174,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UsersServiceImplTest" />
         <item itemvalue="JUnit.UsersServiceImplTest.correctLoginAndPasswordTest" />
         <item itemvalue="JUnit.ProductsRepositoryJdbcImplTest.findAllTest" />
         <item itemvalue="JUnit.ProductsRepositoryJdbcImplTest" />
         <item itemvalue="JUnit.EmbeddedDataSourceTest" />
-        <item itemvalue="JUnit.NumberWorkerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -192,5 +149,20 @@
       <updated>1679404620272</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/edu/school21/services/UsersServiceImplTest.java</url>
+          <line>26</line>
+          <properties class="edu.school21.services.UsersServiceImplTest" method="init">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
