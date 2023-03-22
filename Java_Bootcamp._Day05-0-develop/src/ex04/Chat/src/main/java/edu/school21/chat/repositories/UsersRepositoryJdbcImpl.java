@@ -16,7 +16,6 @@ public class UsersRepositoryJdbcImpl implements UsersRepository{
         this.dataSource = dataSource;
     }
 
-
     @Override
     public List<User> findAll(int page, int size) {
         List<User> usersResult = new ArrayList<>();
