@@ -3,6 +3,7 @@ package school21.spring.service.services;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import org.springframework.context.ApplicationContext;
@@ -24,7 +25,7 @@ public class UsersServiceImplTest {
     @BeforeAll
     static void before() {
         ApplicationContext context = new AnnotationConfigApplicationContext(TestApplicationConfig.class);
-        dataSource = context.getBean("dataSource", DataSource.class);
+        dataSource = context.getBean("EmbeddedDatabaseBuilder", DataSource.class);
         usersServiceJdbc = context.getBean("usersServiceJdbc", UsersService.class);
         usersServiceJdbcTemplate = context.getBean("usersServiceJdbcTemplate", UsersService.class);
     }
@@ -43,6 +44,10 @@ public class UsersServiceImplTest {
         }
     }
 
+    @Test
+    public void getConnection() throws SQLException {
+        assertNotNull(dataSource.getConnection());
+    }
     @ParameterizedTest
     @ValueSource(strings = {"user1@school21.ru", "user2@school21.ru", "user3@school21.ru"})
     public void isSignedUp(String email) {
